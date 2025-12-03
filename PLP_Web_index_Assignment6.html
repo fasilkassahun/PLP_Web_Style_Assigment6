@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Web Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Interactive Web Assignment</h1>
+</header>
+
+<main>
+
+    <!-- Section 1: Interactive Greeting -->
+    <section id="greeting-section">
+        <h2>Interactive Greeting</h2>
+        <input type="text" id="name-input" placeholder="Enter your name">
+        <button id="greet-btn">Greet Me</button>
+        <p id="greet-output"></p>
+    </section>
+
+    <!-- Section 2: Counter Feature -->
+    <section id="counter-section">
+        <h2>Simple Counter</h2>
+        <p>Current Count: <span id="counter">0</span></p>
+        <button id="increment-btn">Increment</button>
+        <button id="decrement-btn">Decrement</button>
+    </section>
+
+    <!-- Section 3: Custom Form -->
+    <section id="form-section">
+        <h2>Custom Registration Form</h2>
+        <form id="registration-form" novalidate>
+            <label for="username">Username:</label>
+            <input type="text" id="username" placeholder="Enter username">
+
+            <label for="email">Email:</label>
+            <input type="text" id="email" placeholder="Enter email">
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" placeholder="Enter password">
+
+            <button type="submit">Submit</button>
+        </form>
+        <p id="form-message"></p>
+    </section>
+
+</main>
+
+<footer>
+    <p>&copy; 2025 Interactive Web Assignment</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
